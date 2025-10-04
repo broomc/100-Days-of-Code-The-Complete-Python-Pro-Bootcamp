@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Giff File Animation</h1>
+    <!-- Static preview image (first frame of GIF) -->
+    <img id="gifPlayer" src="frame_000.png" alt="Preview" width="300" />
+
+    <!-- Start button -->
+    <button onclick="startGif()">Start Animation</button>
+
+    <script>
+      function startGif() {
+        document.getElementById("gifPlayer").src = "output.gif";
+      }
+    </script>
+  </body>
+</html>
